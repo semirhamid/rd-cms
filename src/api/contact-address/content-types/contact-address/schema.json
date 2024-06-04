@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_addresses",
+  "info": {
+    "singularName": "contact-address",
+    "pluralName": "contact-addresses",
+    "displayName": "Contact address"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "phoneNumber": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}

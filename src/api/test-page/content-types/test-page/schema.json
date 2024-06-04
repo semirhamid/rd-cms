@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "test_pages",
+  "info": {
+    "singularName": "test-page",
+    "pluralName": "test-pages",
+    "displayName": "Test page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "slug": {
+      "type": "string"
+    },
+    "Menus": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.menu-item"
+    },
+    "ttttt": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.test-component"
+    },
+    "number": {
+      "type": "integer"
+    }
+  }
+}

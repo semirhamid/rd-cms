@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_button_with_links",
+  "info": {
+    "displayName": "ButtonWithLink",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "buttonText": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

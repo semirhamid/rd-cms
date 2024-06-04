@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_test_component_test_components",
+  "info": {
+    "displayName": "IconWithLinks",
+    "icon": "write",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "regex": "^(https?://)?(www\\.)?[a-zA-Z0-9_-]+(\\.[a-zA-Z0-9_-]+)+[/?]?.*$",
+      "required": true
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
