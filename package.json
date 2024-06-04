@@ -8,9 +8,9 @@
     "name": "Recognise design"
   },
   "scripts": {
-    "build": "strapi build",
+    "build": "cross-env NODE_ENV=production strapi build",
     "develop": "strapi develop",
-    "start": "strapi start",
+    "start": "cross-env NODE_ENV=production NODE_OPTIONS='--max-old-space-size=2048' strapi start",
     "strapi": "strapi"
   },
   "dependencies": {
@@ -29,7 +29,9 @@
     "react-router-dom": "5.3.4",
     "styled-components": "5.3.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
